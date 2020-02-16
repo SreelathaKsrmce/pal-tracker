@@ -1,3 +1,4 @@
+
 #!/usr/bin/env bash
 
 set -e
@@ -40,8 +41,7 @@ function main() {
         -locations=filesystem:"$script_dir"/databases/tracker \
         -user="$db_username" \
         -password="$db_password" \
-        -useSSL= "false" \
-        migrate
+        repair
 
     echo "Migration complete"
 
