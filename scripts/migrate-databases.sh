@@ -40,7 +40,7 @@ function main() {
         -locations=filesystem:"$script_dir"/databases/tracker \
         -user="$db_username" \
         -password="$db_password" \
-        -useSSL= false \
+        -useSSL= "false" \
         migrate
 
     echo "Migration complete"
