@@ -41,7 +41,7 @@ function main() {
         -locations=filesystem:"$script_dir"/databases/tracker \
         -user="$db_username" \
         -password="$db_password" \
-        repair
+        migrate
 
     echo "Migration complete"
 
