@@ -1,1 +1,0 @@
-drop table time_entries;
